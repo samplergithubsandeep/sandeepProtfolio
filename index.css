@@ -1,0 +1,139 @@
+
+body {
+    background-color: black;
+}
+
+.port{cursor:pointer;;
+      position:relative;}
+      
+      .port::after{
+                   content:"";
+                   position:absolute;
+                   bottom:0;
+                   left:0;
+                   width:100;
+                   height:4px;
+                   background-color:orange;
+                   transfrom:scaleX(0);}
+                   
+                   .port:hover::after{
+                     transform:scaleX(1);}
+                   
+
+h1{ text-align:center;
+    font-weight:bold;
+    color:white;
+    padding:2%;}
+    
+    h1 span{ color:orange;}
+    
+    #home{ color:white;
+           font-weight:bold;}
+           
+    #aboutme{ color:white;
+           font-weight:bold;}
+           
+    #skills{ color:white;
+           font-weight:bold;}
+    
+    #contact{ color:white;
+           font-weight:bold;}
+           
+           
+           
+          
+           
+
+
+
+         
+         
+        
+      
+#home:hover{ color:orange;} 
+#aboutme:hover{color:orange;}
+#skills:hover{color:orange;}
+#contact:hover{color:orange;}
+
+
+.navbar-toggler-icon{color:orange;}
+
+
+#am{ color:white;
+font-weight:bold
+;
+}
+#am span{ color:orange;}
+
+          
+          #aboutmepara{ color:white;
+                          font-weight:bold;}
+                          
+                          
+                         #skill{ color:white;
+                                 font-weight:bold;} 
+                          
+                         #skill span{color:orange;}
+                         
+                         
+                         
+                         .progress{height:30px;
+                                   border-radius:50px;
+                               
+                                }
+                                   
+                                   .progress-bar{border-radius:50px;
+                                                 font-size:15px;
+                                                 font-weight:bold;
+                                                     background-color:$orange-400
+                                                    }
+                                                    
+                                                   #c{  color:white;
+                                                   font-weight:bold;}
+                                                   #c span{color:orange;}
+                                                   
+                                                   
+                                                   #mail{ color:white;
+                                                   font-weight:bold;
+                                                
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 .navbar-light .navbar-toggler {
+background-color:white;}
+
+.navbar{ 
+background-color:black;}
+
+
+#name{ color:white;
+    font-weight:bold;
+             
+
+
+}
+
+
+
+    
+    
+    #name1{color:white;
+    font-weight:bold;
+  
+}
+    
+    
+    .container-portfolio{display:flex;}
+    
+    
+    #button{ border:3px solid orange;
+             border-radius:8px;
+             background-color:white;
+             color:black;
+             font-weight:bold;}
+             
+             #button:hover{ border-radius:orange;
+                           scale-top:1}
+    
+  
